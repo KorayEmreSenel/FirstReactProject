@@ -1,0 +1,36 @@
+.button {
+  transition-duration: 0.4s;
+  font-weight: normal;
+  color: black;
+  position: relative;
+  border: none;
+  color: #0d6efd;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  cursor: default; /* Green */
+}
+
+.button:hover {
+  background-color: blue; /* Green */
+  color: white;
+  font-weight: bold;
+}
+
+.button-selected {
+  border: none;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
